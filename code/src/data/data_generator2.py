@@ -14,10 +14,10 @@ header = [
 ]
 
 # Parameters
-num_days = 400                 # Number of days in the time series
+num_days = 200                 # Number of days in the time series
 num_accounts = 10              # Number of distinct accounts
-avg_transaction_rate = 0.6     # ~60% of days will have transactions
-max_transactions_per_day = 4   # Max transactions per day
+avg_transaction_rate = 0.3     # ~30% of days will have transactions
+max_transactions_per_day = 2   # Max transactions per day
 mismatch_rate = 0.1            # 10% mismatched balances
 
 # Sample companies and currencies
